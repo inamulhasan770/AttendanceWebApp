@@ -1,0 +1,104 @@
+<html>
+<head>
+<title> Attendance Portal </title>
+
+</head>
+<body>
+<style>
+div.up {
+	height: 275px;
+    width: auto;
+    border: 1px solid black;
+	background-color: black;
+	}
+
+div.container {
+   height: 120px;
+   width: 530px;
+   padding: 16px;
+   background-color: grey;
+   border: 2px solid black;
+   shadow: 2px;
+   color: black
+}
+	
+	</style>
+
+<div class = up><center><h1 style="color: white;">C.A.H.C.E.T CSE Attendance system</h1>
+		<img src="logo.jpg" height="180" width="180" alt="CAHCET LOGO">
+		</center></div>
+		<br>
+		</br>
+		<br></br>
+		<a href="login.html"><img src="icon/back.png" height="50" width="80" alt="back"></a>
+<br>
+</br>
+<center><h1>Student Attendance Portal</h1></center>
+<br></br>
+<center>
+
+<div class = container>
+
+<form action="putattn.jsp" method="post">
+<table cellpadding="5px" cellspacing="10px">
+<tr>
+
+<td>Class :</td> <td><select name="Dept">
+<option value="CSE">CSE</option>
+<option value="ECE">ECE</option>
+<option value="IT">IT</option>
+<option value="EEE">EEE</option>
+<option value="Mech">MECH</option>
+<option value="Civil">CIVIL</option>
+<option value="Aero">AERO</option>
+</select></td>
+
+ <td>Select section</td><td><select name="sect">
+    <option value="A">A</option>
+    <option value="B">B</option>
+        </select></td>
+
+
+ </tr>
+
+<tr>
+<td>Year :</td> <td><select name="year">
+<option value="II">II YEAR</option>
+<option value="III">III YEAR</option>
+<option value="IV">IV YEAR</option>
+</select></td>
+
+<td>Hour : </td>
+<td><select name="hour">
+<option value="I">I</option>
+<option value="II">II</option>
+<option value="III">III</option>
+<option value="IV">IV</option>
+<option value="V">V</option>
+<option value="VI">VI</option>
+<option value="VII">VII</option>
+<option value="VIII">VIII</option>
+    </select></td>
+</tr>
+
+<tr>
+    
+    <td>Day ORDER :</td><td><select name="day_order">
+<option value="first">1</option>
+<option value="second">2</option>
+<option value="third">3</option>
+<option value="fourth">4</option>
+<option value="fifth">5</option>
+<option value="sixth">6</option>
+</select>
+</td>
+    
+   </tr>
+</table>
+<br>
+<center><input type="Submit" value="Submit"/></center>
+</form>
+</div>
+</center>
+</body>
+</html>
